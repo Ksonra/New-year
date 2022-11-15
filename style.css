@@ -1,0 +1,84 @@
+H1 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 50px;
+    text-shadow:
+      0 0 rgb(250, 68, 36),
+      0 0 rgb(56, 130, 226),
+      0 0 rgb(226, 82, 226);
+    color: transparent;
+    transition: all 2s;
+  }
+  
+  H1:hover {
+    text-shadow:
+      -400px 0 rgb(252, 248, 41),
+      400px 0 yellowgreen,
+      0 0 rgb(27, 15, 189);
+    }
+
+body {
+    /*display: flex;*/
+    background-image: url(pic/фон.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.dream {
+    text-align: center;
+    font-size: 30px;
+}
+
+.letter {
+    text-align: center;
+    text-shadow: 1px;
+    text-decoration-color: chocolate;
+}
+
+textarea{
+    background-color: bisque;
+    border-radius: 20%;
+}
+
+fieldset div {
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    width: 1250px;
+}
+
+.vertical-menu {
+    width: 120px;
+    margin: 45px;
+}
+
+.fly-menu{
+    position: fixed;
+}
+
+.vertical-menu a {
+    background-color: rgb(250, 244, 244);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ee9c3f;
+}
+
+.vertical-menu a.active {
+    background-color: #ee9c3f;
+}
+
+.container{
+    display: flex;
+}
+
+.galary img{
+    width: 100%;
+}

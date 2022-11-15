@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="vertical-menu">
+            <div class="fly-menu">
+                <a href="#" class="active">Form</a>
+                <a href="#" target="#">Galary</a>
+                <a href="#" target="">Information</a>
+            </div>
+        </div>
+        <div class="content">
+            <form action="inform.php" method="GET">
+                <fieldset>
+                    <h1>My dreams...</h1>
+                    <div>
+                        <input type="radio" name="sex">
+                        <label>Male</label>
+                        <input type="radio" name="sex">
+                        <label>Female</label>
+                    </div>
+                    <div>
+                        <label>First name: <input type="text" placeholder="first name"></label>
+                        <label>Second name: <input type="text" placeholder="second name"></label>
+                    </div>
+                    <div>
+                        <label>Age: <input type="number" min="20" max="100" value="20"></label>
+                    </div>
+                    <div class="letter">
+                        <h2>Send me a message:</h2>
+                        <textarea cols="30" rows="10"></textarea>
+                        <p>
+                            <button>Touch me</button>
+                        </p>
+                    </div>
+                    <div class="dream">
+                        <h3>
+                            What do you want to get as a gift?
+                        </h3>
+                        <label><input type="radio" name="gift">Money</label>
+                        <label><input type="radio" name="gift">Gift</label>
+                        <label><input type="radio" name="gift">Miracle</label>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="galary">
+                <div><img src="pic/2.jpg" alt="Изображение"></div>
+                <div><img src="pic/4.jpg" alt="Изображение"></div>
+                <div><img src="pic/3.jpg" alt="Изображение"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

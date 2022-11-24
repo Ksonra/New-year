@@ -47,7 +47,7 @@ fieldset div {
 }
 
 form{
-    width: 1250px;
+    width: 1050px;
 }
 
 .vertical-menu {
@@ -82,3 +82,53 @@ form{
 .galary img{
     width: 100%;
 }
+
+.X_menu{
+    display: none;
+}
+
+.XX_menu{
+    display: none;
+}
+
+.XXX_menu{
+    display: none;
+}
+
+.XXL_menu{
+    display: none;
+}
+
+.link-container:hover .X_menu {
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 25px;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+.link-container:hover .XX_menu {
+    display: block;
+    position: absolute;
+    right: -75px;
+    top: 110px;
+}
+
+.link-container:hover > .XXX_menu {
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 17px;
+}
+
+.link-container:hover > .XXL_menu {
+    display: block;
+    position: absolute;
+    right: -100px;
+    top: 0px;
+}
+

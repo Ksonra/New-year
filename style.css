@@ -2,20 +2,14 @@ H1 {
     overflow: hidden;
     text-align: center;
     font-size: 50px;
-    text-shadow:
-      0 0 rgb(250, 68, 36),
-      0 0 rgb(56, 130, 226),
-      0 0 rgb(226, 82, 226);
+    text-shadow: 0 0 rgb(250, 68, 36), 0 0 rgb(56, 130, 226), 0 0 rgb(226, 82, 226);
     color: transparent;
     transition: all 2s;
-  }
-  
-  H1:hover {
-    text-shadow:
-      -400px 0 rgb(252, 248, 41),
-      400px 0 yellowgreen,
-      0 0 rgb(27, 15, 189);
-    }
+}
+
+H1:hover {
+    text-shadow: -400px 0 rgb(252, 248, 41), 400px 0 yellowgreen, 0 0 rgb(27, 15, 189);
+}
 
 body {
     /*display: flex;*/
@@ -36,7 +30,7 @@ body {
     text-decoration-color: chocolate;
 }
 
-textarea{
+textarea {
     background-color: bisque;
     border-radius: 20%;
 }
@@ -46,7 +40,7 @@ fieldset div {
     padding: 10px;
 }
 
-form{
+form {
     width: 1050px;
 }
 
@@ -55,7 +49,7 @@ form{
     margin: 45px;
 }
 
-.fly-menu{
+.fly-menu {
     position: fixed;
 }
 
@@ -75,27 +69,27 @@ form{
     background-color: #ee9c3f;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.galary img{
+.galary img {
     width: 100%;
 }
 
-.X_menu{
+.X_menu {
     display: none;
 }
 
-.XX_menu{
+.XX_menu {
     display: none;
 }
 
-.XXX_menu{
+.XXX_menu {
     display: none;
 }
 
-.XXL_menu{
+.XXL_menu {
     display: none;
 }
 
@@ -106,8 +100,7 @@ form{
     top: 25px;
 }
 
-
-ul li{
+ul li {
     list-style: none;
 }
 
@@ -118,17 +111,123 @@ ul li{
     top: 110px;
 }
 
-.link-container:hover > .XXX_menu {
+.link-container:hover>.XXX_menu {
     display: block;
     position: absolute;
     right: -100px;
     top: 17px;
 }
 
-.link-container:hover > .XXL_menu {
+.link-container:hover>.XXL_menu {
     display: block;
     position: absolute;
     right: -100px;
     top: 0px;
 }
 
+.cards {
+    flex: 1;
+    border: 1px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.name {
+    border-bottom: 1px solid;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.name:hover {
+    background-color: rgb(235, 250, 166);
+}
+
+.image-and-desc {
+    display: flex;
+    flex: 1;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+    flex: 2;
+}
+
+.image-container img {
+    max-width: 250px;
+}
+
+.additional-container {
+    display: flex;
+    border-top: 1px black solid;
+}
+
+.additional-container .action {
+    flex: 1;
+    background-color: rgb(243, 167, 230);
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.additional-container .action:first-child {
+    border-bottom-left-radius: 15px;
+    background-color: rgb(243, 245, 119);
+}
+
+.additional-container .action:last-child {
+    border-bottom-right-radius: 15px;
+    background-color: rgb(243, 245, 119);
+}
+
+.desc {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.mini_card {
+    max-width: 250px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2mm ridge rgba(240, 172, 25, 0.6);
+}
+
+.img_card>img {
+    width: 100%;
+}
+
+.info_img {
+    flex: 1;
+}
+
+.mini_card_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini_card {
+    margin: 20PX;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+
+.scroll_2 {
+    overflow-x: scroll;
+}
